@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Fredoka', sans-serif;
+    color:#fff;
+}
+header{
+    padding: 10px 50px;
+    background-color: #fff;
+    text-align: center;
+}
+header h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+    color: rgb(255, 0, 157);
+    background-color:#fff;
+}
+header p{
+    color: #000;
+    background-color:#fff;
+    font-size:1.4em;
+    padding-left: 10px;
+}
+.categ{
+    color: #000;
+    width: 25%;
+}
+td{
+    padding: 10px 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.categ a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 2em;
+}
+td:hover, a:hover{
+    color: rgb(255, 0, 157);
+}
+.categ h1{
+    margin: 30px 0;
+    padding: 0 20px;
+    color: rgb(255, 0, 157);
+}
+.main{
+    display: flex;
+    margin: 10px 80px;
+}
+.main-news{
+    margin-left: 6em;
+}
+.main-news h1{
+    margin: 30px 0 0;
+    color:#fff;
+}
+.selection{
+    display:flex;
+    padding-left: 120px;
+}
+.selection img{
+    width: 370px;
+    height: 200px;
+}
+.box1{
+    padding-right:10px;
+}
+h2{
+    text-align:center;
+    padding: 50px 0;
+}
+.btn{
+    background-color:rgb(255, 0, 157);
+    color: #fff;
+    border: 1px rgb(255, 0, 157) solid;
+    padding: 10px 88px;
+    font-size: 1.5em;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 0, 157);
+    font-size: 1.3em;
+    padding: 50px;
+}
